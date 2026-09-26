@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Experience | Mayank Tamakuwala</title>
+    <meta name="author" content="Mayank Tamakuwala" />
+    <meta
+      name="description"
+      content="Research, work, teaching, and education of Mayank Tamakuwala: Reality Design Labs, Amazon, Northeastern University, Grossi Consulting, Karsun Solutions, and CSULB."
+    />
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script type="module" src="./js/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="page site-header__inner">
+        <a class="site-header__brand" href="./index.html">Mayank Tamakuwala</a>
+        <nav class="site-nav" aria-label="Main">
+          <ul class="site-nav__list">
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="./index.html">Home</a>
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="./projects.html">Projects</a>
+            </li>
+            <li class="site-nav__item">
+              <a
+                class="site-nav__link"
+                href="./experience.html"
+                aria-current="page"
+                >Experience</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="page">
+      <section class="page-intro">
+        <h1 class="page-title">Experience</h1>
+        <p class="ai-note">
+          This page was generated with Claude Opus 5.5 (Anthropic) from the
+          prompt recorded in the project README, as the course's AI-generated
+          page. Every fact on it comes from my résumé.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">Research, work, and teaching</h2>
+        <ol class="timeline">
+          <li class="timeline__item">
+            <h3 class="timeline__org">Reality Design Labs</h3>
+            <p class="timeline__role">Graduate Research Assistant</p>
+            <p class="timeline__dates">
+              <time datetime="2026-01">Jan 2026</time> - Present, Boston, MA
+            </p>
+            <p class="timeline__text">
+              Built real-time point tracking for HoloLens-based rescue
+              assistance. One responder's 2D annotation resolves into
+              teammates' camera frames in 1.09 s on average, and under 1.4 s in
+              every one of 29 outdoor field trials across 3 headsets.
+            </p>
+            <p class="timeline__text">
+              Fused three HoloLens 2 streams in a single joint transformer pass,
+              replacing pairwise reconstruction that needed 7-10 s of alignment
+              per scene, with capture synchronized to 100 ms skew and no shared
+              clock. Profiling the PyTorch pipeline stage by stage cut
+              per-capture encode and upload 8.1x, from 7.1 s to 0.9 s, while
+              holding 76-83% valid cross-device tracks.
+            </p>
+            <p class="timeline__text">
+              This work is the basis of Point It Out, accepted to IEEE WF-PST
+              2026.
+            </p>
+          </li>
+
+          <li class="timeline__item">
+            <h3 class="timeline__org">Amazon</h3>
+            <p class="timeline__role">
+              Software Development Engineer Intern (ML)
+            </p>
+            <p class="timeline__dates">
+              <time datetime="2026-05">May 2026</time> -
+              <time datetime="2026-07">Jul 2026</time>, Irvine, CA
+            </p>
+            <p class="timeline__text">
+              Built a greenfield multi-tenant AI backend platform in Java, AWS
+              CDK, and DynamoDB that orchestrates 3 distributed AI services
+              through one API, cutting onboarding from hours of engineering
+              effort to about 5 minutes of self-service.
+            </p>
+            <p class="timeline__text">
+              Designed an MCP layer with 11 agent-callable tools so an LLM agent
+              can run multi-step workflows across those services. Secured tenant
+              isolation with AWS KMS, SigV4 cross-account authentication, and
+              IAM.
+            </p>
+            <p class="timeline__text">
+              Led a migration from Bedrock AgentCore to CORAL Lambda, API
+              Gateway, and MCP Gateway, and shipped CloudWatch dashboards,
+              per-API alarms, and SNS alerting.
+            </p>
+          </li>
+
+          <li class="timeline__item">
+            <h3 class="timeline__org">Northeastern University</h3>
+            <p class="timeline__role">
+              Graduate Teaching Assistant, CS7180 Special Topics in AI
+              (AI-Assisted Coding)
+            </p>
+            <p class="timeline__dates">
+              <time datetime="2026-01">Jan 2026</time> -
+              <time datetime="2026-04">Apr 2026</time>, Boston, MA
+            </p>
+            <p class="timeline__text">
+              Supported a graduate course on how LLMs change the practice of
+              writing software: when to trust a generated diff, how to review
+              one, and when writing it by hand is faster. Ran office hours,
+              evaluated assignments with written feedback on code quality, and
+              worked with the instructor on assignment design and grading
+              criteria.
+            </p>
+          </li>
+
+          <li class="timeline__item">
+            <h3 class="timeline__org">Grossi Consulting LLC</h3>
+            <p class="timeline__role">Full-Stack Developer</p>
+            <p class="timeline__dates">
+              <time datetime="2024-02">Feb 2024</time> -
+              <time datetime="2024-12">Dec 2024</time>, Raleigh, NC
+            </p>
+            <p class="timeline__text">
+              Built and shipped 20+ customer-facing applications with React,
+              Next.js, TypeScript, and Node.js, contributing to a 30% increase in
+              client satisfaction. Developed reusable frontend and backend
+              components with Express.js, Flask, GraphQL, and REST APIs across
+              20+ client systems.
+            </p>
+            <p class="timeline__text">
+              Instrumented products with Google Analytics, Tag Manager, and
+              Search Console, using real usage data to refine UX and contributing
+              to a 20% increase in user engagement.
+            </p>
+          </li>
+
+          <li class="timeline__item">
+            <h3 class="timeline__org">Karsun Solutions, LLC</h3>
+            <p class="timeline__role">Software Engineering Intern</p>
+            <p class="timeline__dates">
+              <time datetime="2022-05">May 2022</time> -
+              <time datetime="2022-08">Aug 2022</time>, Remote
+            </p>
+            <p class="timeline__text">
+              Generated synthetic PII for ML training with Synthetic Data Vault
+              and Faker in Python, so no real personal information was used, and
+              built the interface in React and Node.js on AWS S3, Cognito, and
+              Amplify. The client trained its model within a 5-week deadline,
+              reducing production time by 35%.
+            </p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">Education</h2>
+        <ol class="timeline">
+          <li class="timeline__item">
+            <h3 class="timeline__org">Northeastern University</h3>
+            <p class="timeline__role">Master of Science, Computer Science</p>
+            <p class="timeline__dates">
+              <time datetime="2025-01">Jan 2025</time> -
+              <time datetime="2026-12">Dec 2026</time>, Boston, MA
+            </p>
+            <p class="timeline__text">
+              GPA 3.95/4.00. Coursework includes Distributed Systems, Machine
+              Learning, Machine Learning Operations, Natural Language
+              Processing, Algorithms, and Programming Design Paradigm.
+            </p>
+          </li>
+
+          <li class="timeline__item">
+            <h3 class="timeline__org">California State University Long Beach</h3>
+            <p class="timeline__role">
+              Bachelor of Science, Computer Science, Magna Cum Laude
+            </p>
+            <p class="timeline__dates">
+              <time datetime="2020-01">Jan 2020</time> -
+              <time datetime="2023-12">Dec 2023</time>, Long Beach, CA
+            </p>
+            <p class="timeline__text">
+              GPA 3.75/4.00. President's List and Dean's List. College of
+              Engineering Excel peer mentor and tutor.
+            </p>
+          </li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page site-footer__inner">
+        <h2 class="site-footer__title">Get in touch</h2>
+        <ul class="site-footer__links">
+          <li class="site-footer__item">
+            <a
+              class="site-footer__link"
+              href="mailto:maytamaku.saidhwar@gmail.com"
+              >maytamaku.saidhwar@gmail.com</a
+            >
+          </li>
+          <li class="site-footer__item">
+            <a
+              class="site-footer__link"
+              href="https://linkedin.com/in/mayanktamakuwala"
+              >LinkedIn</a
+            >
+          </li>
+          <li class="site-footer__item">
+            <a
+              class="site-footer__link"
+              href="https://github.com/MayankTamakuwala"
+              >GitHub</a
+            >
+          </li>
+        </ul>
+        <p class="site-footer__note">
+          &copy; 2026 Mayank Tamakuwala. Code released under the MIT License.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
