@@ -98,11 +98,11 @@ Before a call, Priya wants dates and titles in order. She opens **Experience** a
 
 ## Design mockups
 
-Low-fidelity wireframes, drawn before the visual design. The numbered markers match the notes below each one.
+The existing SVG wireframes are layout references. Hand-drawn iPad sketches have not yet been attached. The numbered markers match the notes below each reference.
 
 ### Home, desktop
 
-![Home page desktop wireframe](mockups/wireframe-home-desktop.svg)
+![Home page desktop wireframe](docs/mockups/wireframe-home-desktop.svg)
 
 1. The intro column answers who, what, and when before anything else.
 2. The ring panel sits beside the intro, so the creative component is part of the first impression rather than a section at the bottom.
@@ -111,16 +111,30 @@ Low-fidelity wireframes, drawn before the visual design. The numbered markers ma
 
 ### Projects, desktop
 
-![Projects page desktop wireframe](mockups/wireframe-projects-desktop.svg)
+![Projects page desktop wireframe](docs/mockups/wireframe-projects-desktop.svg)
 
 5. Filter buttons sit above the grid, with a live status line under them.
 6. HERMES leads at full width. The other four fill a two-column flexbox grid. Each card's top border is its ring color.
 
 ### Home, mobile
 
-![Home page mobile wireframe](mockups/wireframe-home-mobile.svg)
+![Home page mobile wireframe](docs/mockups/wireframe-home-mobile.svg)
 
 7. On narrow screens the ring panel stacks below the intro, and the form controls go full width.
+
+### Hand-drawn iPad sketches to attach
+
+Draw these three low-fidelity wireframes to cover the views documented above. Use boxes, short labels, and arrows; polished artwork and exact typography are unnecessary.
+
+| Sketch | What to include | Suggested export name |
+| --- | --- | --- |
+| Home, desktop | Navigation; intro, availability, and contact buttons on the left; hash ring on the right with key input, route button, node checkboxes, virtual-node slider, result, and movement stats; work record; selected projects; footer. Add callouts 1–4. | `handdrawn-home-desktop.png` |
+| Projects, desktop | Navigation, page heading, filter buttons and result count, full-width HERMES card, remaining four cards in two columns, and footer. Add callouts 5–6. | `handdrawn-projects-desktop.png` |
+| Home, mobile | A narrow phone frame (about 390 px wide); navigation; intro, availability, and contact buttons; ring and controls below the intro; stacked work and project sections; footer. Add callout 7. | `handdrawn-home-mobile.png` |
+
+Export each drawing as a readable PNG or JPG and attach the three images in the conversation. They can then be saved in `docs/mockups/` and embedded here. Label them with their actual creation date; sketches made now document the current layout or proposed revisions.
+
+Optional: add an Experience desktop sketch showing navigation, heading, reverse-chronological roles, education, and footer for coverage of all three pages. The current mockup section does not require this fourth view; check the course rubric for any additional requirements.
 
 ## Visual design
 
