@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mayank Tamakuwala | ML systems engineer</title>
+    <meta name="author" content="Mayank Tamakuwala" />
+    <meta
+      name="description"
+      content="Mayank Tamakuwala builds the backends, agent tooling, and retrieval services that put models in production. Amazon SDE-ML intern, MS CS at Northeastern, open to full-time roles from January 2027."
+    />
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script type="module" src="./js/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="page site-header__inner">
+        <a class="site-header__brand" href="./index.html">Mayank Tamakuwala</a>
+        <nav class="site-nav" aria-label="Main">
+          <ul class="site-nav__list">
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="./index.html" aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="./projects.html">Projects</a>
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="./experience.html">Experience</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="page">
+      <section class="hero">
+        <div class="hero__intro">
+          <h1 class="hero__name">
+            <span class="hero__name-line">Mayank</span>
+            <span class="hero__name-line">Tamakuwala</span>
+          </h1>
+          <p class="hero__claim">
+            I build the backends, agent tooling, and retrieval services that put
+            models in production, and I instrument them so the results can be
+            measured.
+          </p>
+          <p class="hero__status">
+            SDE-ML intern at Amazon, summer 2026. MS in Computer Science at
+            Northeastern, graduating December 2026. Open to full-time roles from
+            January 2027, anywhere in the US.
+          </p>
+          <div class="hero__actions">
+            <a
+              class="button button--primary"
+              href="mailto:maytamaku.saidhwar@gmail.com"
+              >Email me</a
+            >
+            <button
+              class="button button--quiet copy-email"
+              type="button"
+              data-email="maytamaku.saidhwar@gmail.com"
+            >
+              Copy email address
+            </button>
+            <p class="copy-email__status" aria-live="polite"></p>
+          </div>
+        </div>
+
+        <div class="ring hero__ring">
+          <h2 class="ring__title">Route a key to one of my projects</h2>
+          <p class="ring__intro">
+            This is a consistent-hash ring, the routing scheme behind my
+            distributed key-value store. Each project owns a few points on it,
+            and a key lands on the first point clockwise from its hash.
+          </p>
+
+          <form class="ring-form">
+            <label class="ring-form__label">
+              Any key works: your name, your company, a word
+              <input
+                class="ring-form__input"
+                type="text"
+                name="key"
+                maxlength="60"
+                autocomplete="off"
+                placeholder="Ada Lovelace"
+                required
+              />
+            </label>
+            <button class="button button--primary" type="submit">
+              Route it
+            </button>
+          </form>
+
+          <svg
+            class="ring__svg"
+            viewBox="0 0 400 400"
+            role="img"
+            aria-label="A hash ring with 4 points for each of 5 projects"
+          >
+            <circle class="ring__track" cx="200" cy="200" r="150" />
+            <line class="ring__zero" x1="200" y1="36" x2="200" y2="64" />
+            <text class="ring__zero-label" x="200" y="26">0</text>
+            <g class="ring__points"></g>
+            <g class="ring__route"></g>
+          </svg>
+
+          <p class="ring__result" aria-live="polite">
+            Type a key to see where it lands.
+          </p>
+
+          <fieldset class="ring-nodes">
+            <legend class="ring-nodes__legend">
+              Nodes online, with each one's share of 1,000 sample keys
+            </legend>
+            <label class="node-toggle node--hermes">
+              <input
+                class="node-toggle__input"
+                type="checkbox"
+                value="hermes"
+                checked
+              />
+              <span class="node-toggle__name">HERMES</span>
+              <span class="node-toggle__share"></span>
+            </label>
+            <label class="node-toggle node--kvstore">
+              <input
+                class="node-toggle__input"
+                type="checkbox"
+                value="kvstore"
+                checked
+              />
+              <span class="node-toggle__name">KV store</span>
+              <span class="node-toggle__share"></span>
+            </label>
+            <label class="node-toggle node--originhub">
+              <input
+                class="node-toggle__input"
+                type="checkbox"
+                value="originhub"
+                checked
+              />
+              <span class="node-toggle__name">OriginHub</span>
+              <span class="node-toggle__share"></span>
+            </label>
+            <label class="node-toggle node--adscanvas">
+              <input
+                class="node-toggle__input"
+                type="checkbox"
+                value="adscanvas"
+                checked
+              />
+              <span class="node-toggle__name">AdsCanvas</span>
+              <span class="node-toggle__share"></span>
+            </label>
+            <label class="node-toggle node--adpilot">
+              <input
+                class="node-toggle__input"
+                type="checkbox"
+                value="adpilot"
+                checked
+              />
+              <span class="node-toggle__name">AdPilot</span>
+              <span class="node-toggle__share"></span>
+            </label>
+          </fieldset>
+
+          <label class="ring-replicas">
+            Points per node
+            <input
+              class="ring-replicas__input"
+              type="range"
+              min="1"
+              max="16"
+              value="4"
+            />
+            <span class="ring-replicas__value">4</span>
+          </label>
+
+          <p class="ring__stats" aria-live="polite">
+            Uncheck a node to take it offline and see which keys move.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">Where I've shipped</h2>
+        <ul class="record">
+          <li class="record__item">
+            <div class="record__meta">
+              <h3 class="record__org">Amazon</h3>
+              <p class="record__role">
+                Software Development Engineer Intern (ML)
+              </p>
+              <p class="record__dates">May 2026 - Jul 2026, Irvine, CA</p>
+            </div>
+            <p class="record__text">
+              I built a multi-tenant AI backend in Java, AWS CDK, and DynamoDB
+              that puts three AI services behind one API. Onboarding a team
+              went from hours of engineering work to about five minutes of
+              self-service. I also designed its MCP layer: 11 tools an LLM agent
+              calls to run multi-step workflows across those services.
+            </p>
+          </li>
+          <li class="record__item">
+            <div class="record__meta">
+              <h3 class="record__org">Reality Design Labs</h3>
+              <p class="record__role">Graduate Research Assistant</p>
+              <p class="record__dates">Jan 2026 - Present, Boston, MA</p>
+            </div>
+            <p class="record__text">
+              Rescue teams wearing HoloLens headsets can mark a point and have it
+              appear in a teammate's view in 1.09 s on average, under 1.4 s in
+              all 29 outdoor field trials. I profiled the pipeline stage by stage
+              and cut per-capture encode and upload 8.1x. The paper, Point It Out,
+              was accepted to IEEE WF-PST 2026.
+            </p>
+          </li>
+          <li class="record__item">
+            <div class="record__meta">
+              <h3 class="record__org">Grossi Consulting</h3>
+              <p class="record__role">Full-Stack Developer</p>
+              <p class="record__dates">Feb 2024 - Dec 2024, Raleigh, NC</p>
+            </div>
+            <p class="record__text">
+              I shipped 20+ customer-facing apps in React, Next.js, TypeScript,
+              and Node.js, and instrumented them with Google Analytics and Search
+              Console so UX changes followed real usage. That work contributed to
+              a 30% increase in client satisfaction.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">Selected work</h2>
+        <ul class="work">
+          <li class="work__item node--hermes">
+            <h3 class="work__name">
+              <a class="work__link" href="./projects.html#hermes">HERMES</a>
+            </h3>
+            <p class="work__text">
+              Hybrid dense and sparse retrieval over 10k+ code artifacts, with a
+              reranking stage. About 25% better Recall@10.
+            </p>
+          </li>
+          <li class="work__item node--kvstore">
+            <h3 class="work__name">
+              <a class="work__link" href="./projects.html#kvstore"
+                >Distributed key-value store</a
+              >
+            </h3>
+            <p class="work__text">
+              Consistent hashing, a write-ahead log, replication, and leader
+              election across 5 Java nodes, at 99.9% request availability. The
+              ring above uses the same routing idea.
+            </p>
+          </li>
+          <li class="work__item node--originhub">
+            <h3 class="work__name">
+              <a class="work__link" href="./projects.html#originhub"
+                >OriginHub</a
+              >
+            </h3>
+            <p class="work__text">
+              An agentic MLOps platform: Airflow ingestion, semantic search in
+              Weaviate, multi-agent RAG on GKE, and retraining on Vertex AI gated
+              by evaluation.
+            </p>
+          </li>
+          <li class="work__item node--adscanvas">
+            <h3 class="work__name">
+              <a class="work__link" href="./projects.html#adscanvas"
+                >AdsCanvas</a
+              >
+            </h3>
+            <p class="work__text">
+              A privacy-first ad console in strict TypeScript: 12 reusable web
+              components, 50+ Vitest and Playwright tests, and 90+ Lighthouse
+              scores for performance and accessibility.
+            </p>
+          </li>
+          <li class="work__item node--adpilot">
+            <h3 class="work__name">
+              <a class="work__link" href="./projects.html#adpilot">AdPilot</a>
+            </h3>
+            <p class="work__text">
+              Three agents that split ad copy, audience targeting, and campaign
+              evaluation, grounded by RAG over brand documents. Java, Spring
+              Boot, React, and MCP.
+            </p>
+          </li>
+        </ul>
+        <p class="work__more">
+          <a class="work__more-link" href="./projects.html"
+            >See all five projects with details</a
+          >
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page site-footer__inner">
+        <h2 class="site-footer__title">Get in touch</h2>
+        <ul class="site-footer__links">
+          <li class="site-footer__item">
+            <a
+              class="site-footer__link"
+              href="mailto:maytamaku.saidhwar@gmail.com"
+              >maytamaku.saidhwar@gmail.com</a
+            >
+          </li>
+          <li class="site-footer__item">
+            <a
+              class="site-footer__link"
+              href="https://linkedin.com/in/mayanktamakuwala"
+              >LinkedIn</a
+            >
+          </li>
+          <li class="site-footer__item">
+            <a
+              class="site-footer__link"
+              href="https://github.com/MayankTamakuwala"
+              >GitHub</a
+            >
+          </li>
+        </ul>
+        <p class="site-footer__note">
+          &copy; 2026 Mayank Tamakuwala. Code released under the MIT License.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
