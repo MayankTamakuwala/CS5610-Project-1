@@ -9,7 +9,7 @@ const FULL_TURN_MS = 1400;
 
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
-/** Ring position to angle in radians, with 0 at twelve o'clock. */
+// Put 0 at the top of the ring.
 function angleAt(position) {
   return (position / RING_SIZE) * Math.PI * 2 - Math.PI / 2;
 }
@@ -29,7 +29,6 @@ function createSvg(tag, attributes) {
   return element;
 }
 
-/** Clockwise arc along the ring, starting at `startAngle`. */
 function arcPath(startAngle, sweep) {
   const start = pointAt(startAngle);
   const end = pointAt(startAngle + sweep);
@@ -55,8 +54,7 @@ export class RingView {
   }
 
   /**
-   * Draw one marker per virtual node. Markers shrink as the ring fills up
-   * so neighbours stay distinguishable.
+   * Shrink markers as points are added to limit overlap.
    * @param {import("./hashRing.js").HashRing} ring
    */
   setRing(ring) {
@@ -85,7 +83,6 @@ export class RingView {
   }
 
   /**
-   * Sync point styling with node state and highlight the owning point.
    * @param {object | null} [owner=null]
    */
   refresh(owner = null) {
@@ -102,7 +99,6 @@ export class RingView {
   }
 
   /**
-   * Draw the key's hash position, then travel clockwise to its owner.
    * @param {{ hash: number, point: object }} route
    * @param {boolean} [animate=true]
    */

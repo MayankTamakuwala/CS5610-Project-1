@@ -1,15 +1,9 @@
-/**
- * Consistent-hash ring with virtual nodes.
- *
- * Pure logic with no DOM access, so it runs in the browser and in Node tests.
- * Positions live on a 32-bit ring: 0 at the top, increasing clockwise.
- */
+// Ring positions run clockwise; 0 is at the top.
 
 export const RING_SIZE = 2 ** 32;
 
 /**
- * 32-bit FNV-1a over UTF-16 code units, finished with the MurmurHash3
- * fmix32 step so near-identical keys ("node#0", "node#1") spread out.
+ * FNV-1a over UTF-16 code units; fmix32 spreads similar keys apart.
  * @param {string} text
  * @returns {number} Unsigned 32-bit hash.
  */
@@ -28,7 +22,6 @@ export function hashKey(text) {
 }
 
 /**
- * Clockwise distance from one ring position to another.
  * @param {number} from
  * @param {number} to
  * @returns {number}
@@ -79,8 +72,7 @@ export class HashRing {
   }
 
   /**
-   * Bring a node up or take it down. Refuses to take down the last node,
-   * because a ring with no online nodes has nowhere to route.
+   * Keep one node online so keys always have somewhere to go.
    * @param {string} nodeId
    * @param {boolean} online
    * @returns {boolean} Whether the change was applied.
@@ -98,8 +90,7 @@ export class HashRing {
   }
 
   /**
-   * First point at or clockwise from `hash` whose node is online.
-   * Binary search for the start, then walk past offline points.
+   * Find the next clockwise point, skipping offline nodes.
    * @param {number} hash
    * @param {Set<string>} [offline=this.offline]
    */
@@ -134,7 +125,6 @@ export class HashRing {
   }
 
   /**
-   * Keys owned by each online node.
    * @param {string[]} keys
    * @returns {Map<string, number>}
    */
@@ -148,8 +138,7 @@ export class HashRing {
   }
 
   /**
-   * How many keys changed owner relative to every node being online,
-   * on this ring versus naive `hash % nodeCount` placement.
+   * Compare key movement against the all-online baseline.
    * @param {string[]} keys
    * @returns {{ total: number, ringMoved: number, moduloMoved: number }}
    */

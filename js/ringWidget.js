@@ -30,8 +30,7 @@ function projectLink(nodeId) {
 }
 
 /**
- * Describe where a key landed. Built with DOM nodes rather than innerHTML
- * because the key is visitor input.
+ * Use DOM nodes so visitor input is never parsed as HTML.
  * @param {HTMLElement} container
  * @param {{ key: string, hash: number, point: { nodeId: string } }} route
  * @param {string | null} previousOwner Owner before a node was toggled.
@@ -70,7 +69,6 @@ function renderResult(container, route, previousOwner = null) {
 }
 
 /**
- * Wire up the hash ring widget inside `root`.
  * @param {HTMLElement} root Element with the .ring class.
  */
 export function initHashRing(root) {
