@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 900" width="1000" height="900" font-family="Helvetica, Arial, sans-serif">
+<title>Projects page desktop wireframe</title>
+<rect width="1000" height="900" fill="#f4f6f1"/>
+<text x="40" y="34" font-size="16" fill="#1c2226" text-anchor="start" font-weight="700">Wireframe 2: Projects page, desktop</text>
+<rect x="40" y="56" width="920" height="44" rx="4" fill="#fff" stroke="#aab2a7" stroke-width="1.5"/>
+<text x="56" y="84" font-size="15" fill="#1c2226" text-anchor="start" font-weight="700">Mayank Tamakuwala</text>
+<text x="944" y="84" font-size="13" fill="#5d676f" text-anchor="end">Home   Projects   Experience</text>
+<rect x="40" y="120" width="260" height="64" rx="4" fill="#d5dad2" stroke="#aab2a7" stroke-width="1.5"/><text x="170.0" y="156.9" font-size="14" text-anchor="middle" fill="#5d676f">PROJECTS (display)</text>
+<rect x="40" y="200" width="420" height="6" rx="3" fill="#aab2a7"/><rect x="40" y="216" width="252.0" height="6" rx="3" fill="#aab2a7"/>
+<rect x="40" y="248" width="96" height="30" rx="15" fill="#1c2226" stroke="#1c2226" stroke-width="1.5"/><text x="88.0" y="267.2" font-size="12" text-anchor="middle" fill="#5d676f">All</text>
+<rect x="144" y="248" width="96" height="30" rx="15" fill="#fff" stroke="#1c2226" stroke-width="1.5"/><text x="192.0" y="267.2" font-size="12" text-anchor="middle" fill="#5d676f">Distributed</text>
+<rect x="248" y="248" width="96" height="30" rx="15" fill="#fff" stroke="#1c2226" stroke-width="1.5"/><text x="296.0" y="267.2" font-size="12" text-anchor="middle" fill="#5d676f">Retrieval</text>
+<rect x="352" y="248" width="96" height="30" rx="15" fill="#fff" stroke="#1c2226" stroke-width="1.5"/><text x="400.0" y="267.2" font-size="12" text-anchor="middle" fill="#5d676f">Agents</text>
+<rect x="456" y="248" width="96" height="30" rx="15" fill="#fff" stroke="#1c2226" stroke-width="1.5"/><text x="504.0" y="267.2" font-size="12" text-anchor="middle" fill="#5d676f">Cloud</text>
+<rect x="560" y="248" width="96" height="30" rx="15" fill="#fff" stroke="#1c2226" stroke-width="1.5"/><text x="608.0" y="267.2" font-size="12" text-anchor="middle" fill="#5d676f">Frontend</text>
+<text x="88" y="268" font-size="12" fill="#fff" text-anchor="middle">All</text>
+<text x="40" y="300" font-size="12" fill="#5d676f" text-anchor="start">Showing all 5 projects. (live region, ?area= in URL)</text>
+<rect x="40" y="320" width="920" height="190" rx="10" fill="#fff" stroke="#aab2a7" stroke-width="1.5"/>
+<rect x="40" y="320" width="920" height="6" fill="#2a45c2"/>
+<rect x="60" y="346" width="300" height="146" rx="4" fill="#d5dad2" stroke="#aab2a7" stroke-width="1.5"/><text x="210.0" y="423.2" font-size="12" text-anchor="middle" fill="#5d676f">diagram image (alt text)</text>
+<text x="390" y="366" font-size="15" fill="#1c2226" text-anchor="start" font-weight="700">HERMES (lead project, full width)</text>
+<rect x="390" y="384" width="520" height="6" rx="3" fill="#aab2a7"/><rect x="390" y="400" width="478.40000000000003" height="6" rx="3" fill="#aab2a7"/><rect x="390" y="416" width="478.40000000000003" height="6" rx="3" fill="#aab2a7"/><rect x="390" y="432" width="520" height="6" rx="3" fill="#aab2a7"/><rect x="390" y="448" width="478.40000000000003" height="6" rx="3" fill="#aab2a7"/><rect x="390" y="464" width="312.0" height="6" rx="3" fill="#aab2a7"/>
+<rect x="40" y="530" width="450" height="166" rx="10" fill="#fff" stroke="#aab2a7" stroke-width="1.5"/>
+<rect x="40" y="530" width="450" height="6" fill="#8a5a00"/>
+<rect x="58" y="552" width="170" height="122" rx="4" fill="#d5dad2" stroke="#aab2a7" stroke-width="1.5"/><text x="143.0" y="617.2" font-size="12" text-anchor="middle" fill="#5d676f">diagram</text>
+<rect x="246" y="554" width="150" height="16" rx="3" fill="#d5dad2" stroke="#aab2a7" stroke-width="1.5"/>
+<rect x="246" y="584" width="220" height="6" rx="3" fill="#aab2a7"/><rect x="246" y="600" width="202.4" height="6" rx="3" fill="#aab2a7"/><rect x="246" y="616" width="202.4" height="6" rx="3" fill="#aab2a7"/><rect x="246" y="632" width="220" height="6" rx="3" fill="#aab2a7"/><rect x="246" y="648" width="132.0" height="6" rx="3" fill="#aab2a7"/>
+<rect x="510" y="530" width="450" height="166" rx="10" fill="#fff" stroke="#aab2a7" stroke-width="1.5"/>
+<rect x="510" y="530" width="450" height="6" fill="#0a7275"/>
+<rect x="528" y="552" width="170" height="122" rx="4" fill="#d5dad2" stroke="#aab2a7" stroke-width="1.5"/><text x="613.0" y="617.2" font-size="12" text-anchor="middle" fill="#5d676f">diagram</text>
+<rect x="716" y="554" width="150" height="16" rx="3" fill="#d5dad2" stroke="#aab2a7" stroke-width="1.5"/>
+<rect x="716" y="584" width="220" height="6" rx="3" fill="#aab2a7"/><rect x="716" y="600" width="202.4" height="6" rx="3" fill="#aab2a7"/><rect x="716" y="616" width="202.4" height="6" rx="3" fill="#aab2a7"/><rect x="716" y="632" width="220" height="6" rx="3" fill="#aab2a7"/><rect x="716" y="648" width="132.0" height="6" rx="3" fill="#aab2a7"/>
+<rect x="40" y="710" width="450" height="166" rx="10" fill="#fff" stroke="#aab2a7" stroke-width="1.5"/>
+<rect x="40" y="710" width="450" height="6" fill="#8b3783"/>
+<rect x="58" y="732" width="170" height="122" rx="4" fill="#d5dad2" stroke="#aab2a7" stroke-width="1.5"/><text x="143.0" y="797.2" font-size="12" text-anchor="middle" fill="#5d676f">diagram</text>
+<rect x="246" y="734" width="150" height="16" rx="3" fill="#d5dad2" stroke="#aab2a7" stroke-width="1.5"/>
+<rect x="246" y="764" width="220" height="6" rx="3" fill="#aab2a7"/><rect x="246" y="780" width="202.4" height="6" rx="3" fill="#aab2a7"/><rect x="246" y="796" width="202.4" height="6" rx="3" fill="#aab2a7"/><rect x="246" y="812" width="220" height="6" rx="3" fill="#aab2a7"/><rect x="246" y="828" width="132.0" height="6" rx="3" fill="#aab2a7"/>
+<rect x="510" y="710" width="450" height="166" rx="10" fill="#fff" stroke="#aab2a7" stroke-width="1.5"/>
+<rect x="510" y="710" width="450" height="6" fill="#3a6b31"/>
+<rect x="528" y="732" width="170" height="122" rx="4" fill="#d5dad2" stroke="#aab2a7" stroke-width="1.5"/><text x="613.0" y="797.2" font-size="12" text-anchor="middle" fill="#5d676f">diagram</text>
+<rect x="716" y="734" width="150" height="16" rx="3" fill="#d5dad2" stroke="#aab2a7" stroke-width="1.5"/>
+<rect x="716" y="764" width="220" height="6" rx="3" fill="#aab2a7"/><rect x="716" y="780" width="202.4" height="6" rx="3" fill="#aab2a7"/><rect x="716" y="796" width="202.4" height="6" rx="3" fill="#aab2a7"/><rect x="716" y="812" width="220" height="6" rx="3" fill="#aab2a7"/><rect x="716" y="828" width="132.0" height="6" rx="3" fill="#aab2a7"/>
+<circle cx="28" cy="252" r="9" fill="#1c2226"/><text x="28" y="256" font-size="11" fill="#fff" text-anchor="middle" font-weight="700">5</text>
+<circle cx="28" cy="326" r="9" fill="#1c2226"/><text x="28" y="330" font-size="11" fill="#fff" text-anchor="middle" font-weight="700">6</text>
+</svg>
