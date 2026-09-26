@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200">
+  <title>AdPilot agents around a brand document</title>
+  <rect width="320" height="200" fill="#e8ece5"/>
+  <line x1="80" y1="56" x2="160" y2="96" stroke="#1c2226" stroke-width="2"/>
+  <line x1="240" y1="56" x2="160" y2="96" stroke="#1c2226" stroke-width="2"/>
+  <line x1="160" y1="168" x2="160" y2="96" stroke="#1c2226" stroke-width="2"/>
+  <path d="M 138 70 L 172 70 L 184 82 L 184 124 L 138 124 Z" fill="#f5f7f2" stroke="#1c2226" stroke-width="2.5"/>
+  <path d="M 172 70 L 172 82 L 184 82" fill="none" stroke="#1c2226" stroke-width="2"/>
+  <line x1="146" y1="90" x2="176" y2="90" stroke="#505a62" stroke-width="2"/>
+  <line x1="146" y1="98" x2="168" y2="98" stroke="#505a62" stroke-width="2"/>
+  <line x1="146" y1="106" x2="176" y2="106" stroke="#505a62" stroke-width="2"/>
+  <line x1="146" y1="114" x2="168" y2="114" stroke="#505a62" stroke-width="2"/>
+  <circle cx="80" cy="56" r="18" fill="#3a6b31"/>
+  <circle cx="80" cy="56" r="6" fill="#f5f7f2"/>
+  <circle cx="240" cy="56" r="18" fill="#3a6b31"/>
+  <circle cx="240" cy="56" r="6" fill="#f5f7f2"/>
+  <circle cx="160" cy="168" r="18" fill="#3a6b31"/>
+  <circle cx="160" cy="168" r="6" fill="#f5f7f2"/>
+</svg>

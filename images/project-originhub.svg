@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200">
+  <title>OriginHub pipeline</title>
+  <rect width="320" height="200" fill="#e8ece5"/>
+  <rect x="18" y="76" width="54" height="48" rx="8" fill="#f5f7f2" stroke="#1c2226" stroke-width="2.5"/>
+  <line x1="72" y1="100" x2="90" y2="100" stroke="#1c2226" stroke-width="2"/>
+  <path d="M 84 95 L 90 100 L 84 105" fill="none" stroke="#1c2226" stroke-width="2"/>
+  <rect x="90" y="76" width="54" height="48" rx="8" fill="#f5f7f2" stroke="#1c2226" stroke-width="2.5"/>
+  <line x1="144" y1="100" x2="162" y2="100" stroke="#1c2226" stroke-width="2"/>
+  <path d="M 156 95 L 162 100 L 156 105" fill="none" stroke="#1c2226" stroke-width="2"/>
+  <rect x="162" y="76" width="54" height="48" rx="8" fill="#f5f7f2" stroke="#1c2226" stroke-width="2.5"/>
+  <line x1="216" y1="100" x2="234" y2="100" stroke="#1c2226" stroke-width="2"/>
+  <path d="M 228 95 L 234 100 L 228 105" fill="none" stroke="#1c2226" stroke-width="2"/>
+  <line x1="28" y1="90" x2="62" y2="90" stroke="#1c2226" stroke-width="2"/><line x1="28" y1="100" x2="56" y2="100" stroke="#1c2226" stroke-width="2"/><line x1="28" y1="110" x2="60" y2="110" stroke="#1c2226" stroke-width="2"/>
+  <line x1="100" y1="95" x2="134" y2="95" stroke="#1c2226" stroke-width="2"/><line x1="100" y1="105" x2="120" y2="105" stroke="#1c2226" stroke-width="2"/>
+  <circle cx="176" cy="87" r="3.5" fill="#0a7275"/>
+  <circle cx="189" cy="87" r="3.5" fill="#0a7275"/>
+  <circle cx="202" cy="87" r="3.5" fill="#0a7275"/>
+  <circle cx="176" cy="100" r="3.5" fill="#0a7275"/>
+  <circle cx="189" cy="100" r="3.5" fill="#0a7275"/>
+  <circle cx="202" cy="100" r="3.5" fill="#0a7275"/>
+  <circle cx="176" cy="113" r="3.5" fill="#0a7275"/>
+  <circle cx="189" cy="113" r="3.5" fill="#0a7275"/>
+  <circle cx="202" cy="113" r="3.5" fill="#0a7275"/>
+  <line x1="262" y1="76" x2="272" y2="100" stroke="#0a7275" stroke-width="2"/>
+  <line x1="298" y1="96" x2="272" y2="100" stroke="#0a7275" stroke-width="2"/>
+  <line x1="262" y1="124" x2="272" y2="100" stroke="#0a7275" stroke-width="2"/>
+  <line x1="262" y1="76" x2="298" y2="96" stroke="#0a7275" stroke-width="2"/><line x1="298" y1="96" x2="262" y2="124" stroke="#0a7275" stroke-width="2"/>
+  <circle cx="262" cy="76" r="11" fill="#0a7275"/>
+  <circle cx="298" cy="96" r="11" fill="#0a7275"/>
+  <circle cx="262" cy="124" r="11" fill="#0a7275"/>
+  <circle cx="272" cy="100" r="5" fill="#1c2226"/>
+</svg>

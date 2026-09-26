@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects | Mayank Tamakuwala</title>
+    <meta name="author" content="Mayank Tamakuwala" />
+    <meta
+      name="description"
+      content="Five projects by Mayank Tamakuwala: hybrid retrieval, a distributed key-value store, an agentic MLOps platform, a TypeScript ad console, and a multi-agent ad copilot."
+    />
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script type="module" src="./js/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="page site-header__inner">
+        <a class="site-header__brand" href="./index.html">Mayank Tamakuwala</a>
+        <nav class="site-nav" aria-label="Main">
+          <ul class="site-nav__list">
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="./index.html">Home</a>
+            </li>
+            <li class="site-nav__item">
+              <a
+                class="site-nav__link"
+                href="./projects.html"
+                aria-current="page"
+                >Projects</a
+              >
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="./experience.html">Experience</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="page">
+      <section class="page-intro">
+        <h1 class="page-title">Projects</h1>
+        <p class="page-lead">
+          Five things I've built, from storage internals to the interface on
+          top. Each color matches that project's node on the home page ring.
+        </p>
+        <div
+          class="project-filter"
+          role="group"
+          aria-label="Filter projects by area"
+        >
+          <button
+            class="filter-button"
+            type="button"
+            data-area="all"
+            aria-pressed="true"
+          >
+            All
+          </button>
+          <button
+            class="filter-button"
+            type="button"
+            data-area="distributed"
+            aria-pressed="false"
+          >
+            Distributed systems
+          </button>
+          <button
+            class="filter-button"
+            type="button"
+            data-area="retrieval"
+            aria-pressed="false"
+          >
+            Retrieval and ML
+          </button>
+          <button
+            class="filter-button"
+            type="button"
+            data-area="agents"
+            aria-pressed="false"
+          >
+            LLM agents
+          </button>
+          <button
+            class="filter-button"
+            type="button"
+            data-area="cloud"
+            aria-pressed="false"
+          >
+            Cloud and MLOps
+          </button>
+          <button
+            class="filter-button"
+            type="button"
+            data-area="frontend"
+            aria-pressed="false"
+          >
+            Frontend
+          </button>
+          <p class="project-filter__status" aria-live="polite">
+            Showing all 5 projects.
+          </p>
+        </div>
+      </section>
+
+      <ul class="project-grid">
+        <li
+          id="hermes"
+          class="project project--lead node--hermes"
+          data-areas="retrieval"
+        >
+          <img
+            class="project__image"
+            src="./images/project-hermes.svg"
+            alt="Diagram: a dense and a sparse retriever feed one merged candidate list, which a reranker orders into ranked results."
+            width="320"
+            height="200"
+          />
+          <div class="project__body">
+            <h2 class="project__name">HERMES</h2>
+            <p class="project__kind">
+              Hybrid Embedding Retrieval with Multi-stage Evaluation and Scoring
+            </p>
+            <p class="project__text">
+              A multi-stage search service over 10k+ code artifacts. Dense and
+              sparse retrieval run side by side, a reranker orders the merged
+              candidates, and the whole pipeline is instrumented for performance.
+              Recall@10 improved by about 25%.
+            </p>
+            <p class="project__text">
+              Indexing runs offline, separate from the online REST API, which is
+              what keeps queries low-latency.
+            </p>
+            <p class="project__stack">
+              Embeddings, sparse retrieval, reranking, REST APIs, performance
+              instrumentation
+            </p>
+            <p class="project__links">
+              <a
+                class="project__link"
+                href="https://github.com/MayankTamakuwala/HERMES"
+                >Source on GitHub</a
+              >
+            </p>
+          </div>
+        </li>
+
+        <li
+          id="kvstore"
+          class="project node--kvstore"
+          data-areas="distributed"
+        >
+          <img
+            class="project__image"
+            src="./images/project-kvstore.svg"
+            alt="Diagram: five storage nodes on a ring, one marked as leader, with replication links to their neighbors."
+            width="320"
+            height="200"
+          />
+          <div class="project__body">
+            <h2 class="project__name">Distributed key-value store</h2>
+            <p class="project__kind">Storage internals in Java</p>
+            <p class="project__text">
+              A key-value database across 5 storage nodes. Consistent hashing
+              places keys, a write-ahead log and in-memory cache sit on each
+              node, and replication with leader election keeps data reachable
+              when a node fails. It held 99.9% request availability.
+            </p>
+            <p class="project__stack">
+              Java, consistent hashing, write-ahead logging, replication, leader
+              election
+            </p>
+          </div>
+        </li>
+
+        <li
+          id="originhub"
+          class="project node--originhub"
+          data-areas="cloud retrieval agents"
+        >
+          <img
+            class="project__image"
+            src="./images/project-originhub.svg"
+            alt="Diagram: a four-stage pipeline from news ingestion to summarization, embedding, and a group of cooperating agents."
+            width="320"
+            height="200"
+          />
+          <div class="project__body">
+            <h2 class="project__name">OriginHub</h2>
+            <p class="project__kind">
+              Startup intelligence platform, Oct 2025 - Dec 2025
+            </p>
+            <p class="project__text">
+              Airflow pulls in startup news, LLMs summarize it and write SWOT and
+              competitor analysis, and embeddings land in Weaviate for semantic
+              search. Multi-agent RAG runs on GKE.
+            </p>
+            <p class="project__text">
+              ML CI/CD gates models on evaluation and bias detection before
+              retraining on Vertex AI, with Prometheus and Grafana watching
+              production.
+            </p>
+            <p class="project__stack">
+              Airflow, Weaviate, GKE, Vertex AI, Prometheus, Grafana
+            </p>
+            <p class="project__links">
+              <a class="project__link" href="https://github.com/OriginHub-pvt"
+                >Source on GitHub</a
+              >
+            </p>
+          </div>
+        </li>
+
+        <li
+          id="adscanvas"
+          class="project node--adscanvas"
+          data-areas="frontend"
+        >
+          <img
+            class="project__image"
+            src="./images/project-adscanvas.svg"
+            alt="Diagram: a grid of interface components of different sizes, with one component highlighted."
+            width="320"
+            height="200"
+          />
+          <div class="project__body">
+            <h2 class="project__name">AdsCanvas</h2>
+            <p class="project__kind">Privacy-first advertising console</p>
+            <p class="project__text">
+              A Turborepo monorepo in strict TypeScript. 12 reusable web
+              components cover 6 end-to-end campaign workflows and an
+              AI-assisted ad creation flow. 50+ Vitest and Playwright tests guard
+              it, and it scores 90+ on Lighthouse for performance and
+              accessibility.
+            </p>
+            <p class="project__stack">
+              React, TypeScript, Node.js, GraphQL, REST, Vite, Turborepo,
+              Vitest, Playwright
+            </p>
+          </div>
+        </li>
+
+        <li
+          id="adpilot"
+          class="project node--adpilot"
+          data-areas="agents frontend"
+        >
+          <img
+            class="project__image"
+            src="./images/project-adpilot.svg"
+            alt="Diagram: three agents arranged around a shared brand document, each connected to it."
+            width="320"
+            height="200"
+          />
+          <div class="project__body">
+            <h2 class="project__name">AdPilot</h2>
+            <p class="project__kind">AI advertising campaign copilot</p>
+            <p class="project__text">
+              Three agents split the work: one writes ad copy, one picks
+              audiences, one evaluates campaigns. RAG over brand documents keeps
+              the copy grounded, responses stream, and dashboards tracked 1,000+
+              simulated campaign requests.
+            </p>
+            <p class="project__stack">
+              React, TypeScript, Java, Spring Boot, PostgreSQL, Redis, OpenAI
+              API, MCP
+            </p>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page site-footer__inner">
+        <h2 class="site-footer__title">Get in touch</h2>
+        <ul class="site-footer__links">
+          <li class="site-footer__item">
+            <a
+              class="site-footer__link"
+              href="mailto:maytamaku.saidhwar@gmail.com"
+              >maytamaku.saidhwar@gmail.com</a
+            >
+          </li>
+          <li class="site-footer__item">
+            <a
+              class="site-footer__link"
+              href="https://linkedin.com/in/mayanktamakuwala"
+              >LinkedIn</a
+            >
+          </li>
+          <li class="site-footer__item">
+            <a
+              class="site-footer__link"
+              href="https://github.com/MayankTamakuwala"
+              >GitHub</a
+            >
+          </li>
+        </ul>
+        <p class="site-footer__note">
+          &copy; 2026 Mayank Tamakuwala. Code released under the MIT License.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
