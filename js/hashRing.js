@@ -43,6 +43,17 @@ export class HashRing {
    * @param {number} [replicas=4] Virtual nodes placed per physical node.
    */
   constructor(nodeIds, replicas = 4) {
+    if (
+      !Array.isArray(nodeIds) ||
+      nodeIds.length === 0 ||
+      nodeIds.some((id) => typeof id !== "string" || id.trim() === "") ||
+      new Set(nodeIds).size !== nodeIds.length
+    ) {
+      throw new TypeError("Provide at least one distinct, nonempty node ID.");
+    }
+    if (!Number.isInteger(replicas) || replicas < 1) {
+      throw new RangeError("Replicas must be a positive integer.");
+    }
     this.nodeIds = [...nodeIds];
     this.replicas = replicas;
     this.offline = new Set();
