@@ -10,9 +10,9 @@ It is built with vanilla HTML5, CSS3, and ES6 modules. There is no backend, no f
 
 The site has three pages:
 
-- **Home** (`index.html`): who I am, what I build, and my availability, next to the creative component. Below that, a short record of where I have shipped and five selected projects.
-- **Projects** (`projects.html`): the same five projects in more depth, filterable by area of work.
-- **Experience** (`experience.html`): the course's AI-generated page, a timeline of research, work, teaching, and education.
+- **Home** (`index.html`, AI-generated): who I am, what I build, and my availability, next to the creative component. Below that, a short record of where I have shipped and five selected projects.
+- **Projects** (`projects.html`, manually written by Mayank Tamakuwala): the same five projects in more depth, filterable by area of work.
+- **Experience** (`experience.html`, manually written by Mayank Tamakuwala): a timeline of research, work, teaching, and education.
 
 ### The creative component: a live consistent-hash ring
 
