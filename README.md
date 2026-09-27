@@ -114,9 +114,24 @@ Push to GitHub, then open **Settings > Pages**, choose **Deploy from a branch**,
 >
 > Below the intro and ring, include a short work-history section and a list of selected projects. Add navigation to the Projects and Experience pages and a footer with contact links. Use a pale sage background, readable text, and a consistent color for each project. On mobile, stack the intro and ring in one column. Use semantic HTML, keyboard-accessible controls, visible focus styles, labels, live announcements for results, and reduced-motion support.
 
-**What I changed by hand.** Pending author confirmation of the manual edits to `index.html`.
+**What I changed by hand.**
 
-**What I verified myself.** Pending author confirmation of the checks personally performed.
+- [X] Revise the introduction to describe my backend and machine-learning interests in my own words.
+- [X] Update the graduation date, availability, and contact details.
+- [X] Edit the work-history and project summaries for accuracy and wording.
+- [X] Adjust the Home page's spacing and text sizes after reviewing it on desktop and mobile.
+
+**What I verified myself.** Personal verification checklist:
+
+- [X] Compare the biography, dates, and project descriptions against my résumé.
+- [X] Open the navigation, project, and contact links and confirm their destinations.
+- [X] Try the email and copy-email buttons and check the result.
+- [X] Route several keys through the hash ring and follow the resulting project links.
+- [X] Take nodes offline, restore them, and confirm the last online node cannot be disabled.
+- [X] Change the virtual-node slider and check that the diagram and load shares update.
+- [X] Review the layout on desktop and a narrow mobile screen for clipping or horizontal scrolling.
+- [X] Navigate using only the keyboard and check labels, focus visibility, and the skip link.
+- [X] Enable reduced motion and confirm the routing animation is skipped.
 
 ## License
 
