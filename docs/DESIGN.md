@@ -126,11 +126,11 @@ The existing SVG wireframes are layout references. Hand-drawn iPad sketches have
 
 Draw these three low-fidelity wireframes to cover the views documented above. Use boxes, short labels, and arrows; polished artwork and exact typography are unnecessary.
 
-| Sketch | What to include | Suggested export name |
-| --- | --- | --- |
-| Home, desktop | Navigation; intro, availability, and contact buttons on the left; hash ring on the right with key input, route button, node checkboxes, virtual-node slider, result, and movement stats; work record; selected projects; footer. Add callouts 1–4. | `handdrawn-home-desktop.png` |
-| Projects, desktop | Navigation, page heading, filter buttons and result count, full-width HERMES card, remaining four cards in two columns, and footer. Add callouts 5–6. | `handdrawn-projects-desktop.png` |
-| Home, mobile | A narrow phone frame (about 390 px wide); navigation; intro, availability, and contact buttons; ring and controls below the intro; stacked work and project sections; footer. Add callout 7. | `handdrawn-home-mobile.png` |
+| Sketch            | What to include                                                                                                                                                                                                                                    | Suggested export name            |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| Home, desktop     | Navigation; intro, availability, and contact buttons on the left; hash ring on the right with key input, route button, node checkboxes, virtual-node slider, result, and movement stats; work record; selected projects; footer. Add callouts 1–4. | `handdrawn-home-desktop.png`     |
+| Projects, desktop | Navigation, page heading, filter buttons and result count, full-width HERMES card, remaining four cards in two columns, and footer. Add callouts 5–6.                                                                                              | `handdrawn-projects-desktop.png` |
+| Home, mobile      | A narrow phone frame (about 390 px wide); navigation; intro, availability, and contact buttons; ring and controls below the intro; stacked work and project sections; footer. Add callout 7.                                                       | `handdrawn-home-mobile.png`      |
 
 Export each drawing as a readable PNG or JPG and attach the three images in the conversation. They can then be saved in `docs/mockups/` and embedded here. Label them with their actual creation date; sketches made now document the current layout or proposed revisions.
 

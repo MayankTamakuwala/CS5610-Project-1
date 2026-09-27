@@ -85,20 +85,20 @@ Push to GitHub, then open **Settings > Pages**, choose **Deploy from a branch**,
 
 ## How the requirements are met
 
-| Requirement | Where |
-| --- | --- |
-| ES6 modules | `"type": "module"` in `package.json`, `<script type="module" src="./js/main.js">` on every page |
-| Original JS over 5 lines | `js/hashRing.js`, `js/ringView.js`, `js/ringWidget.js`, `js/projectFilter.js` |
-| Original component | The hash ring on the home page |
-| Organized folders | `css/`, `js/`, `images/`, `fonts/`, `docs/` |
-| Meta author, description, icon | `<head>` of every page |
-| Flexbox grid | Hero, record list, project grid, nav, footer (`css/style.css`) |
-| Classes for identifying elements | Every styled or scripted element has a class, selected by class in CSS and JS |
-| Standard tags | Buttons are `<button>`, toggles are checkboxes, links are `<a>` |
-| No `!important` | None in `css/style.css` |
-| Alt text | Every `<img>` |
-| Three pages | `index.html` (AI-generated), `projects.html` and `experience.html` (manually written) |
-| MIT license | `LICENSE` |
+| Requirement                      | Where                                                                                           |
+| -------------------------------- | ----------------------------------------------------------------------------------------------- |
+| ES6 modules                      | `"type": "module"` in `package.json`, `<script type="module" src="./js/main.js">` on every page |
+| Original JS over 5 lines         | `js/hashRing.js`, `js/ringView.js`, `js/ringWidget.js`, `js/projectFilter.js`                   |
+| Original component               | The hash ring on the home page                                                                  |
+| Organized folders                | `css/`, `js/`, `images/`, `fonts/`, `docs/`                                                     |
+| Meta author, description, icon   | `<head>` of every page                                                                          |
+| Flexbox grid                     | Hero, record list, project grid, nav, footer (`css/style.css`)                                  |
+| Classes for identifying elements | Every styled or scripted element has a class, selected by class in CSS and JS                   |
+| Standard tags                    | Buttons are `<button>`, toggles are checkboxes, links are `<a>`                                 |
+| No `!important`                  | None in `css/style.css`                                                                         |
+| Alt text                         | Every `<img>`                                                                                   |
+| Three pages                      | `index.html` (AI-generated), `projects.html` and `experience.html` (manually written)           |
+| MIT license                      | `LICENSE`                                                                                       |
 
 ## Use of generative AI
 
@@ -116,22 +116,22 @@ Push to GitHub, then open **Settings > Pages**, choose **Deploy from a branch**,
 
 **What I changed by hand.**
 
-- [X] Revise the introduction to describe my backend and machine-learning interests in my own words.
-- [X] Update the graduation date, availability, and contact details.
-- [X] Edit the work-history and project summaries for accuracy and wording.
-- [X] Adjust the Home page's spacing and text sizes after reviewing it on desktop and mobile.
+- [x] Revise the introduction to describe my backend and machine-learning interests in my own words.
+- [x] Update the graduation date, availability, and contact details.
+- [x] Edit the work-history and project summaries for accuracy and wording.
+- [x] Adjust the Home page's spacing and text sizes after reviewing it on desktop and mobile.
 
 **What I verified myself.** Personal verification checklist:
 
-- [X] Compare the biography, dates, and project descriptions against my résumé.
-- [X] Open the navigation, project, and contact links and confirm their destinations.
-- [X] Try the email and copy-email buttons and check the result.
-- [X] Route several keys through the hash ring and follow the resulting project links.
-- [X] Take nodes offline, restore them, and confirm the last online node cannot be disabled.
-- [X] Change the virtual-node slider and check that the diagram and load shares update.
-- [X] Review the layout on desktop and a narrow mobile screen for clipping or horizontal scrolling.
-- [X] Navigate using only the keyboard and check labels, focus visibility, and the skip link.
-- [X] Enable reduced motion and confirm the routing animation is skipped.
+- [x] Compare the biography, dates, and project descriptions against my résumé.
+- [x] Open the navigation, project, and contact links and confirm their destinations.
+- [x] Try the email and copy-email buttons and check the result.
+- [x] Route several keys through the hash ring and follow the resulting project links.
+- [x] Take nodes offline, restore them, and confirm the last online node cannot be disabled.
+- [x] Change the virtual-node slider and check that the diagram and load shares update.
+- [x] Review the layout on desktop and a narrow mobile screen for clipping or horizontal scrolling.
+- [x] Navigate using only the keyboard and check labels, focus visibility, and the skip link.
+- [x] Enable reduced motion and confirm the routing animation is skipped.
 
 ## License
 

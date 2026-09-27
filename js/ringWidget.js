@@ -88,9 +88,9 @@ export function initHashRing(root) {
   function updateShares() {
     const shares = ring.loadShare(SAMPLE_KEYS);
     for (const toggle of toggles) {
-      const share = toggle.closest(".node-toggle").querySelector(
-        ".node-toggle__share",
-      );
+      const share = toggle
+        .closest(".node-toggle")
+        .querySelector(".node-toggle__share");
       share.textContent = ring.isOnline(toggle.value)
         ? `${Math.round((shares.get(toggle.value) / SAMPLE_KEYS.length) * 100)}%`
         : "offline";
