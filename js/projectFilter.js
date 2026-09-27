@@ -1,8 +1,7 @@
 const PARAM = "area";
 
 /**
- * Filter the project list by area using toggle buttons. The active filter is
- * mirrored in the URL (?area=frontend) so a filtered view can be shared.
+ * Keep the filter in the URL so visitors can share it.
  * @param {HTMLElement} filterRoot Element containing .filter-button elements.
  * @param {HTMLElement} grid Element containing .project items.
  */

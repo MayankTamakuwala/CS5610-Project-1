@@ -1,7 +1,4 @@
-/**
- * Projects that act as nodes on the home page hash ring.
- * `id` matches the node--{id} CSS class and the anchor on projects.html.
- */
+// IDs also match the node--{id} CSS classes and Projects page anchors.
 export const PROJECTS = [
   {
     id: "hermes",
