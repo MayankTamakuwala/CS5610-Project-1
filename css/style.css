@@ -1,22 +1,4 @@
-/* ==========================================================================
-   Mayank Tamakuwala homepage
-
-   1.  Fonts
-   2.  Design tokens
-   3.  Project colors
-   4.  Base elements
-   5.  Layout
-   6.  Header and navigation
-   7.  Buttons
-   8.  Hero
-   9.  Hash ring widget
-   10. Home page lists
-   11. Projects page
-   12. Experience page
-   13. Footer
-   ========================================================================== */
-
-/* 1. Fonts: self-hosted, SIL Open Font License (see fonts/) --------------- */
+/* Self-hosted fonts (licenses in fonts/) */
 
 @font-face {
   font-family: "Big Shoulders";
@@ -50,7 +32,7 @@
   src: url("../fonts/work-sans-bold.woff") format("woff");
 }
 
-/* 2. Design tokens -------------------------------------------------------- */
+/* Design tokens */
 
 :root {
   --color-paper: #e8ece5;
@@ -87,7 +69,7 @@
   --radius-pill: 999px;
 }
 
-/* 3. Project colors: one hue per project, used everywhere it appears ------ */
+/* Project colors */
 
 .node--hermes {
   --node-color: #2a45c2;
@@ -109,7 +91,7 @@
   --node-color: #3a6b31;
 }
 
-/* 4. Base elements -------------------------------------------------------- */
+/* Base elements */
 
 *,
 *::before,
@@ -166,7 +148,7 @@ code {
   font-size: 0.9em;
 }
 
-/* 5. Layout --------------------------------------------------------------- */
+/* Layout */
 
 .page {
   width: 100%;
@@ -202,7 +184,7 @@ code {
   top: var(--space-s);
 }
 
-/* 6. Header and navigation ------------------------------------------------ */
+/* Header and navigation */
 
 .site-header__inner {
   display: flex;
@@ -244,7 +226,7 @@ code {
   font-weight: 700;
 }
 
-/* 7. Buttons -------------------------------------------------------------- */
+/* Buttons */
 
 .button {
   display: inline-flex;
@@ -277,7 +259,7 @@ code {
   background-color: var(--color-surface);
 }
 
-/* 8. Hero ----------------------------------------------------------------- */
+/* Hero */
 
 .hero {
   display: flex;
@@ -335,7 +317,7 @@ code {
   font-size: var(--text-small);
 }
 
-/* 9. Hash ring widget ----------------------------------------------------- */
+/* Hash ring widget */
 
 .ring {
   display: flex;
@@ -537,7 +519,7 @@ code {
   font-variant-numeric: tabular-nums;
 }
 
-/* 10. Home page lists ----------------------------------------------------- */
+/* Home page lists */
 
 .record {
   display: flex;
@@ -630,7 +612,7 @@ code {
   font-weight: 700;
 }
 
-/* 11. Projects page ------------------------------------------------------- */
+/* Projects page */
 
 .page-intro {
   display: flex;
@@ -762,7 +744,7 @@ code {
   font-weight: 700;
 }
 
-/* 12. Experience page ----------------------------------------------------- */
+/* Experience page */
 
 .ai-note {
   max-width: 60ch;
@@ -823,7 +805,7 @@ code {
   margin-top: var(--space-2xs);
 }
 
-/* 13. Footer -------------------------------------------------------------- */
+/* Footer */
 
 .site-footer {
   padding-block: var(--space-xl);

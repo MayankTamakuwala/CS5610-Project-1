@@ -32,7 +32,7 @@ The assignment constraints: front-end only, no backend, no component libraries, 
 ├── projects.html         Manually written filterable project grid
 ├── experience.html       Manually written experience timeline
 ├── css/
-│   └── style.css         All styles, organized by numbered section
+│   └── style.css         Shared styles, grouped by section
 ├── js/
 │   ├── main.js           Entry module, initializes each page's features
 │   ├── hashRing.js       Ring logic (pure, no DOM, unit tested)
