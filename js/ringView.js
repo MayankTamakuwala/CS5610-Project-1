@@ -61,7 +61,7 @@ export class RingView {
     this.ring = ring;
     this.pointRadius = Math.max(
       MIN_POINT_RADIUS,
-      Math.min(MAX_POINT_RADIUS, 160 / ring.points.length),
+      Math.min(MAX_POINT_RADIUS, 160 / ring.points.length)
     );
     this.markers = ring.points.map((point) => {
       const { x, y } = pointAt(angleAt(point.hash));
@@ -74,11 +74,11 @@ export class RingView {
       return { point, circle };
     });
     this.pointLayer.replaceChildren(
-      ...this.markers.map((marker) => marker.circle),
+      ...this.markers.map((marker) => marker.circle)
     );
     this.svg.setAttribute(
       "aria-label",
-      `A hash ring with ${ring.replicas} points for each of ${ring.nodeIds.length} projects`,
+      `A hash ring with ${ring.replicas} points for each of ${ring.nodeIds.length} projects`
     );
   }
 
@@ -90,7 +90,7 @@ export class RingView {
       const isOwner = point === owner;
       circle.classList.toggle(
         "ring-point--offline",
-        !this.ring.isOnline(point.nodeId),
+        !this.ring.isOnline(point.nodeId)
       );
       circle.classList.toggle("ring-point--owner", isOwner);
       const radius = isOwner ? this.pointRadius + 4 : this.pointRadius;
@@ -124,7 +124,7 @@ export class RingView {
     });
     this.routeLayer.setAttribute(
       "class",
-      `ring__route node--${route.point.nodeId}`,
+      `ring__route node--${route.point.nodeId}`
     );
     this.routeLayer.replaceChildren(arc, key, traveler);
     this.refresh();

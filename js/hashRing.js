@@ -56,7 +56,7 @@ export class HashRing {
           nodeId,
           replica,
           hash: hashKey(`${nodeId}#${replica}`),
-        })),
+        }))
       )
       .sort((a, b) => a.hash - b.hash);
   }
