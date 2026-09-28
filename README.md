@@ -6,7 +6,7 @@ A static personal homepage built with vanilla HTML5, CSS3, and ES6 modules. Its 
 - **Class:** [CS 5610 Web Development](https://johnguerra.co/classes/webDevelopment_online_fall_2026/)
 - **Live site:** https://mayanktamakuwala.github.io/CS5610-Project-1/
 - **Demo video:** https://youtu.be/zMBtJRqUYEI
-- **Presentation slides:** [Google Slides here](https://docs.google.com/presentation/d/1HYcG4pJzIiWYFThCXJ6q15Xe3vZRqLWw/edit?usp=sharing&ouid=101510382295001314043&rtpof=true&sd=true)
+- **Presentation slides:** [Google Slides here](https://docs.google.com/presentation/d/1EeYL_CkxncdInDlf17szwfXv8isV_HmmEgbuyn56MQM/edit?usp=sharing)
 - **Design document:** [docs/DESIGN.md](docs/DESIGN.md)
 
 ![Home page with the name, a one-line description, availability, and the interactive hash ring](images/screenshot.png)
