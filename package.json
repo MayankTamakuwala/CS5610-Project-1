@@ -7,8 +7,7 @@
     "start": "serve .",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "format:check": "prettier --check .",
-    "test": "node --test"
+    "format:check": "prettier --check ."
   },
   "author": "Mayank Tamakuwala",
   "license": "MIT",

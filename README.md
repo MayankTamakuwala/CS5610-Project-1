@@ -3,8 +3,8 @@
 A static personal homepage built with vanilla HTML5, CSS3, and ES6 modules. Its centerpiece is a live consistent-hash ring: type any key and watch it route to one of my projects.
 
 - **Author:** Mayank Tamakuwala ([GitHub](https://github.com/MayankTamakuwala), [LinkedIn](https://linkedin.com/in/mayanktamakuwala))
-- **Class:** TODO: course name and link to the class page
-- **Live site:** TODO: deployed URL
+- **Class:** [CS 5610 Web Development](https://johnguerra.co/classes/webDevelopment_online_fall_2026/)
+- **Live site:** https://mayanktamakuwala.github.io/CS5610-Project-1/
 - **Demo video:** TODO: public link to the narrated video
 - **Design document:** [docs/DESIGN.md](docs/DESIGN.md)
 
@@ -35,7 +35,7 @@ The assignment constraints: front-end only, no backend, no component libraries, 
 │   └── style.css         Shared styles, grouped by section
 ├── js/
 │   ├── main.js           Entry module, initializes each page's features
-│   ├── hashRing.js       Ring logic (pure, no DOM, unit tested)
+│   ├── hashRing.js       Ring logic (pure, no DOM)
 │   ├── ringView.js       SVG drawing and route animation
 │   ├── ringWidget.js     Form, node toggles, slider, live text
 │   ├── projects.js       Project data used by the ring
@@ -46,8 +46,6 @@ The assignment constraints: front-end only, no backend, no component libraries, 
 ├── docs/
 │   ├── DESIGN.md         Design document
 │   └── mockups/          Wireframes
-├── tests/
-│   └── hashRing.test.js  Unit tests for the ring (node:test)
 ├── eslint.config.js
 ├── package.json
 └── LICENSE
@@ -74,7 +72,6 @@ There is no build step. The files in the repository are the site.
 npm run lint           # ESLint with the class config
 npm run format         # Prettier, rewrites files in place
 npm run format:check   # Prettier, check only
-npm test               # Unit tests for the hash ring
 ```
 
 HTML validity is checked by uploading each page to https://validator.w3.org/#validate_by_upload.
