@@ -5,7 +5,7 @@ A static personal homepage built with vanilla HTML5, CSS3, and ES6 modules. Its 
 - **Author:** Mayank Tamakuwala ([GitHub](https://github.com/MayankTamakuwala), [LinkedIn](https://linkedin.com/in/mayanktamakuwala))
 - **Class:** [CS 5610 Web Development](https://johnguerra.co/classes/webDevelopment_online_fall_2026/)
 - **Live site:** https://mayanktamakuwala.github.io/CS5610-Project-1/
-- **Demo video:** TODO: public link to the narrated video
+- **Demo video:** https://youtu.be/zMBtJRqUYEI
 - **Design document:** [docs/DESIGN.md](docs/DESIGN.md)
 
 ![Home page with the name, a one-line description, availability, and the interactive hash ring](images/screenshot.png)
